@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>e-commerce</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <!--navbar-->
+        <div class="navbar">
+        </div>
+        <!--sidebar-->
+        <div class="sidebar">
+        </div>
+        <div class="boxes-container">
+            <div class="first-line-boxes">
+                <div class="boxes-name">Analytic Overview</div>
+                <div class="small-boxes">
+                    <div class="small-box">
+                            <div class="icon-box-container">
+                                <i class="fa-solid fa-user-group fa-lg yellow"></i>
+                            </div>
+                            <span>28.7k</span>
+                            <div class="category">Total Followers</div>
+                            <div class="rate">
+                                <div class="first-small-box"></div>
+                            </div>
+                    </div>
+                    <div class="small-box">
+                        <div class="icon-box-container purple-background">
+                            <i class="fa-solid fa-fingerprint fa-lg purple"></i>
+                        </div>
+                        <span>8.1k</span>
+                        <div class="category">Impressions</div>
+                        <div class="rate-up">
+                            <i class="fa-solid fa-sort-up"></i>
+                            <span class="category">78.8%</span>
+                        </div>
+                    </div>
+                    <div class="small-box">
+                        <div class="icon-box-container">
+                            <i class="fa-solid fa-group-arrows-rotate fa-lg yellow"></i>
+                        </div>
+                        <span>1.7k</span>
+                        <div class="category">Total Engagement</div>
+                        <div class="rate-down">
+                            <i class="fa-solid fa-sort-down"></i>
+                            <span class="category">12.3%</span>
+                        </div>
+                    </div>
+                    <div class="small-box">
+                        <div class="icon-box-container purple-background">
+                            <i class="fa-solid fa-magnet fa-lg purple"></i>
+                        </div>
+                        <span>1k</span>
+                        <div class="category">Conversion Rate</div>
+                        <div class="rate-up">
+                            <i class="fa-solid fa-sort-up"></i>
+                            <span class="category">18.8%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="large-boxes">
+                <div>
+                    <div class="boxes-name">Followers</div>
+                    <div class="large-box">
+                        <canvas id="myChart"></canvas>
+                        
+                    </div>
+                </div>
+                <div>
+                    <div class="boxes-name">Conversion Rate</div>
+                    <div class="large-box">
+                        <canvas id="newChart"></canvas>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/37f06ebab6.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="sources/data.js"></script>
+    <script src="sources/sidebar.js"></script>
+    <script src="sources/chart.js"></script>
+    <script src="sources/chart2.js"></script>
+</body>
+
+</html>
