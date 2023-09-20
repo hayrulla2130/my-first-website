@@ -11,10 +11,26 @@ const newctx = document.getElementById('newChart');
       }]
     },
     options: {
-      scales: {
-        y: {
-          beginAtZero: true
+        plugins: {
+            legend: {
+                labels: {
+                    color: 'white'  // Set color for legend labels
+                }
+            }
+        },
+        scales: {
+            y: {
+                beginAtZero: true,
+                ticks: {
+                    color: 'white'  // Set color for y-axis labels
+                }
+            },
+            x: {
+                ticks: {
+                    color: 'white'  // Set color for x-axis labels
+                }
+            }
         }
-      }
     }
+    
   });
